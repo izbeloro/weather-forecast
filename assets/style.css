@@ -2,13 +2,29 @@
     font-family: fantasy;
 }
 
+:root {
+    --dark: rgba(128, 128, 128, 0.476);
+}
+
 body {
     background-color: steelblue;
 }
 
-.card {
-    background-color: grey;
+header {
+    background-color: var(--dark);
+}
+
+.dayH {
+    font-weight: 800;
+    color: white;
+}
+
+.card,
+.main {
+    background-color: var(--dark);
     border-radius: 10px;
+    font-weight: 900;
+    color: white;
 }
 
 .card:hover {

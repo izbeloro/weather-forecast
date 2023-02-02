@@ -1,13 +1,13 @@
 var apiKey = "dda2361f9711b148f9a98283d4756472";
 
-fetch("api.openweathermap.org/data/2.5/weather?q=London&appid=dda2361f9711b148f9a98283d4756472")
+fetch("http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={dda2361f9711b148f9a98283d4756472}")
 
 // function searchApi(query, format) {
 //     var locQueryUrl = 'https://www.loc.gov/search/?fo=json';
 
 //     if (format) {
 //         locQueryUrl = 'https://www.loc.gov/' + format + '/?fo=json';
-//     }
+//     }'-[[[;]]]
 
 //     locQueryUrl = locQueryUrl + '&q=' + query;
 

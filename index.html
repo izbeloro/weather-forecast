@@ -11,25 +11,26 @@
     <link rel="stylesheet" href="./assets/style.css" />
     <title>Weather Forecast</title>
 </head>
-    <body class="min-100-vh flex-column">
+    <body class="min-100-vh flex-column" style ="background-image: url('http://wallpapershome.com/images/pages/pic_hs/6481.jpg');">
     <header class="p-3 text-white text-center">
         <h1>Weather Forecast</h1>
     </header>
     <section class="col-12 flex-container row">
     <!--Search Box-->
-        <div class="col-3">
-        <h2 class="text-center text-white">Search City</h2>
+        <div class="col-3 p-3">
+        <h2 class="text-center text-white">Search for a City</h2>
         <input
             name="City Search"
             id="search"
             type="text"
             class="form-control m-2 text-center"
+            placeholder="Riverside, CA"
         />
         <button type="submit" class="btn btn-primary col-12 m-2">Search</button>
         </div>
         <!--API Display-->
-        <div class="col-9 row mb-2">
-            <div class="col-12">
+        <div class="col-9 row mb-2  p-3">
+            <div class="col-12 text-white main">
                 <h2>
                     City
                 </h2>
@@ -45,6 +46,9 @@
             </div>
             <!--5 Day Forecast-->
             <div class="col-12 p-3 row">
+                <h2 class="text-center dayH">
+                    5 Day Forecast
+                </h2>
                 <div class="col m-1 card">
                     <h3>
                         Date:
