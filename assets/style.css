@@ -1,0 +1,25 @@
+* {
+    font-family: fantasy;
+}
+
+body {
+    background-color: steelblue;
+}
+
+.card {
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 12px 12px 2px 1px rgba(31, 31, 64, 0.2);
+}
+
+.btn {
+    background-color: black;
+}
+
+.btn:hover {
+    box-shadow: 12px 12px 2px 1px rgba(31, 31, 64, 0.2);
+    background-color: grey;
+}
