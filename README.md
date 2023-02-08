@@ -30,7 +30,7 @@ To use this challenge weboage, search for the desired city. Then, the current we
 
 MIT License
 
-Copyright (c) [2023] [SamanthaOrozco] [ArianaCoia] [MelanieIslas]
+Copyright (c) [2023]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
