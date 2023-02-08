@@ -6,6 +6,7 @@ var search = document.getElementById("search");
 var city = document.getElementById("city");
 var geoCode = "https://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={API key}";
 var fiveDay = "api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}";
+var searchHistory = [];
 
 function displayInfo() {
     var geoCode = "https://api.openweathermap.org/geo/1.0/direct?q="+ search.value +"&limit=1&appid="+ key +"";
@@ -39,7 +40,11 @@ function displayInfo() {
             }
         })
         })
+        searchHistory.push(search.value);
+
+        localStorage.setItem("searchHistory", JSON.stringify(searchHistory));
 }
+
 
 var weekDay = [
     moment().format("dddd"),
