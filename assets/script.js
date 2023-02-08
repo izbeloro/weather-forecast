@@ -35,7 +35,7 @@ function displayInfo() {
                 document.getElementById("humidity-"+i+"").textContent = "Humidity: " +Number(data.list[i].main.humidity).toFixed(0)+ "%";
             }
             for (var i = 0; i < 6; i++) {
-                document.getElementById("icon-"+i+"").src = "http://openweathermap.org/img/wn/"+ data.list[i].weather[0].icon+".png";
+                document.getElementById("icon-"+i+"").src = "https://openweathermap.org/img/wn/"+ data.list[i].weather[0].icon+".png";
             }
         })
         })
@@ -79,7 +79,7 @@ window.addEventListener('load', () => {
                         document.getElementById("humidity-"+i+"").textContent = "Humidity: " +Number(data.list[i].main.humidity).toFixed(0)+ "%";
                     }
                     for (var i = 0; i < 6; i++) {
-                        document.getElementById("icon-"+i+"").src = "http://openweathermap.org/img/wn/"+ data.list[i].weather[0].icon+".png";
+                        document.getElementById("icon-"+i+"").src = "https://openweathermap.org/img/wn/"+ data.list[i].weather[0].icon+".png";
                     }
                 })
         })
